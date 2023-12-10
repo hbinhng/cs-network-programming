@@ -1,0 +1,6 @@
+#ifndef NGUYENHAIBINH_5_SERVER_H
+#define NGUYENHAIBINH_5_SERVER_H
+
+void startServer();
+
+#endif // NGUYENHAIBINH_5_SERVER_H
