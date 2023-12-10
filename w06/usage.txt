@@ -1,0 +1,18 @@
+Compilation:
+Server compilation:
+.../Server/ $ gcc server.c ../common.c -o server
+
+Client compilation:
+.../Client/ $ gcc client.c ../common.c -o client
+
+DO NOT put -DDEBUG in gcc command as it will remove entry point of server/client application to compile them in module mode.
+
+Usage:
+Server usage (port 4602):
+./server
+
+Client usage:
+./client
+Server host? <input server host here><enter>
+... (logging)
+File name? <input file name here><enter>

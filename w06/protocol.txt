@@ -1,0 +1,11 @@
+Giao thức:
+Client: DOWNLOAD
+Server: 200 DOWNLOAD OK
+Client: <file name>
+Server: 404 FILE not found // not found
+Client: DOWNLOAD
+Server: 200 DOWNLOAD OK
+Client: <file name>
+Server: 201 FILE found;<file content><<EOF>> // found
+Client: QUIT (optional)
+Server: 500 bye
