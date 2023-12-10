@@ -1,0 +1,6 @@
+#ifndef NGUYENHAIBINH_4_CLIENT_H
+#define NGUYENHAIBINH_4_CLIENT_H
+
+void startClient();
+
+#endif // NGUYENHAIBINH_4_CLIENT_H
