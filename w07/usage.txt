@@ -1,0 +1,18 @@
+Compilation:
+Server compilation:
+.../Server/ $ g++ server.cpp ../common.cpp -o server
+
+Client compilation:
+.../Client/ $ g++ client.cpp ../common.cpp -o client
+
+DO NOT put -DDEBUG in g++ command as it will remove entry point of server/client application to compile them in module mode.
+
+Usage:
+Server usage (port 4620):
+./server
+
+Client usage:
+./client
+Server host? <input server host here><enter>
+... (logging)
+File name? <input file name here><enter>
